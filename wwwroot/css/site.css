@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.user-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;  /* צבע רקע */
+    color: white;  /* צבע טקסט */
+    text-decoration: none;  /* הסרת קו תחתון */
+    border-radius: 5px;  /* פינות מעוגלות */
+    font-size: 16px;  /* גודל הפונט */
+    font-weight: bold;  /* עובי הפונט */
+    transition: background-color 0.3s ease;  /* אנימציה עבור שינוי צבע הרקע */
+}
+
+.user-link:hover {
+    background-color: #45a049;  /* צבע רקע בהעברת עכבר */
+}
+

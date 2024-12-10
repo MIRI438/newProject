@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand Bags Management</title>
+    <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+
+    <header>
+        <h1>Brand Bags Management</h1>
+    </header>
+    <main>
+        <div id="login" style="display: none;">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="userid" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <div id="mainPage">
+            <h2>Brand Bags List</h2>
+            <table id="bagsTable">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>IsDesigning</th>
+                        <th>IsVegan</th>
+                        <th>Actions</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data will be inserted dynamically -->
+                </tbody>
+            </table>
+            <button id="addBagBtn">Add New Bag</button>
+        </div>
+    </main>
+    <script src="js/site.js"></script>
+</body>
+</html>

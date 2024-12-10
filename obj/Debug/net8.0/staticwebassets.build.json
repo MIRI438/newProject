@@ -1,0 +1,846 @@
+{
+  "Version": 1,
+  "Hash": "6oHhBFShilcYLmTenip/4NIQrq19avNpTogPbrYAtc4=",
+  "Source": "MyApi",
+  "BasePath": "_content/MyApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyApi\\wwwroot",
+      "Source": "MyApi",
+      "ContentRoot": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\",
+      "BasePath": "_content/MyApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\css\\Login.css",
+      "SourceId": "MyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\",
+      "BasePath": "_content/MyApi",
+      "RelativePath": "css/Login#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sjhazz2jly",
+      "Integrity": "qDlJtgqQb3TnwM40g+cged/X2gg1kYwMEXYOq3LANls=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Login.css"
+    },
+    {
+      "Identity": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\css\\site.css",
+      "SourceId": "MyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\",
+      "BasePath": "_content/MyApi",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xkba2b487e",
+      "Integrity": "IefsyztDgKoN9gz8cPNi5CmjkClntzUtOqh2Kyy/Xg0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\index.html",
+      "SourceId": "MyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\",
+      "BasePath": "_content/MyApi",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mz8ecgb7u6",
+      "Integrity": "/p5ID3ZUiUKYcfNFniQSNBdopHQUP58k+bwAW/Ly6Ps=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\js\\Login.js",
+      "SourceId": "MyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\",
+      "BasePath": "_content/MyApi",
+      "RelativePath": "js/Login#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jsmb0zktgt",
+      "Integrity": "3cvEgPuS8JzNEM7/+sgWHjTPevrHbhDq3yx8p8YPRFc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Login.js"
+    },
+    {
+      "Identity": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\js\\site.js",
+      "SourceId": "MyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\",
+      "BasePath": "_content/MyApi",
+      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3q1lxhr05v",
+      "Integrity": "Ba/mukM6eIjOGl3gmkhXdrQlqUI6eRUGfd/0eFpNI/I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\js\\userList.js",
+      "SourceId": "MyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\",
+      "BasePath": "_content/MyApi",
+      "RelativePath": "js/userList#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b5tk2n56gh",
+      "Integrity": "cWFkTb1rpqaXO9V4Y8aYaP4Rd+i3ceYFEa9tlqatgu0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\userList.js"
+    },
+    {
+      "Identity": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\Login.html",
+      "SourceId": "MyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\",
+      "BasePath": "_content/MyApi",
+      "RelativePath": "Login#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wc3zs8de3f",
+      "Integrity": "wAdWMNjEitJA2zUaa2eDcSVsCtS+s/DEFM9YdzuIoYg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Login.html"
+    },
+    {
+      "Identity": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\userList.html",
+      "SourceId": "MyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\",
+      "BasePath": "_content/MyApi",
+      "RelativePath": "userList#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xxweabi0le",
+      "Integrity": "u+vjGf8q6qjgtulfFo4NjYV3SLoj/nKao2Y30k+8QQM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\userList.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/Login.css",
+      "AssetFile": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\css\\Login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "688"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qDlJtgqQb3TnwM40g+cged/X2gg1kYwMEXYOq3LANls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 14:49:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qDlJtgqQb3TnwM40g+cged/X2gg1kYwMEXYOq3LANls="
+        }
+      ]
+    },
+    {
+      "Route": "css/Login.sjhazz2jly.css",
+      "AssetFile": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\css\\Login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "688"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qDlJtgqQb3TnwM40g+cged/X2gg1kYwMEXYOq3LANls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 14:49:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sjhazz2jly"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qDlJtgqQb3TnwM40g+cged/X2gg1kYwMEXYOq3LANls="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1182"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IefsyztDgKoN9gz8cPNi5CmjkClntzUtOqh2Kyy/Xg0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 13:16:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IefsyztDgKoN9gz8cPNi5CmjkClntzUtOqh2Kyy/Xg0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.xkba2b487e.css",
+      "AssetFile": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1182"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IefsyztDgKoN9gz8cPNi5CmjkClntzUtOqh2Kyy/Xg0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 13:16:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xkba2b487e"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IefsyztDgKoN9gz8cPNi5CmjkClntzUtOqh2Kyy/Xg0="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1505"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/p5ID3ZUiUKYcfNFniQSNBdopHQUP58k+bwAW/Ly6Ps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 19:00:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/p5ID3ZUiUKYcfNFniQSNBdopHQUP58k+bwAW/Ly6Ps="
+        }
+      ]
+    },
+    {
+      "Route": "index.mz8ecgb7u6.html",
+      "AssetFile": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1505"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/p5ID3ZUiUKYcfNFniQSNBdopHQUP58k+bwAW/Ly6Ps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 19:00:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mz8ecgb7u6"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/p5ID3ZUiUKYcfNFniQSNBdopHQUP58k+bwAW/Ly6Ps="
+        }
+      ]
+    },
+    {
+      "Route": "js/Login.js",
+      "AssetFile": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\js\\Login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3cvEgPuS8JzNEM7/+sgWHjTPevrHbhDq3yx8p8YPRFc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 19:12:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3cvEgPuS8JzNEM7/+sgWHjTPevrHbhDq3yx8p8YPRFc="
+        }
+      ]
+    },
+    {
+      "Route": "js/Login.jsmb0zktgt.js",
+      "AssetFile": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\js\\Login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3cvEgPuS8JzNEM7/+sgWHjTPevrHbhDq3yx8p8YPRFc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 19:12:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jsmb0zktgt"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Login.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3cvEgPuS8JzNEM7/+sgWHjTPevrHbhDq3yx8p8YPRFc="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.3q1lxhr05v.js",
+      "AssetFile": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ba/mukM6eIjOGl3gmkhXdrQlqUI6eRUGfd/0eFpNI/I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 00:29:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3q1lxhr05v"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ba/mukM6eIjOGl3gmkhXdrQlqUI6eRUGfd/0eFpNI/I="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ba/mukM6eIjOGl3gmkhXdrQlqUI6eRUGfd/0eFpNI/I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 00:29:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ba/mukM6eIjOGl3gmkhXdrQlqUI6eRUGfd/0eFpNI/I="
+        }
+      ]
+    },
+    {
+      "Route": "js/userList.b5tk2n56gh.js",
+      "AssetFile": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\js\\userList.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5677"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cWFkTb1rpqaXO9V4Y8aYaP4Rd+i3ceYFEa9tlqatgu0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 13:37:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b5tk2n56gh"
+        },
+        {
+          "Name": "label",
+          "Value": "js/userList.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cWFkTb1rpqaXO9V4Y8aYaP4Rd+i3ceYFEa9tlqatgu0="
+        }
+      ]
+    },
+    {
+      "Route": "js/userList.js",
+      "AssetFile": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\js\\userList.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5677"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cWFkTb1rpqaXO9V4Y8aYaP4Rd+i3ceYFEa9tlqatgu0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 13:37:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cWFkTb1rpqaXO9V4Y8aYaP4Rd+i3ceYFEa9tlqatgu0="
+        }
+      ]
+    },
+    {
+      "Route": "Login.html",
+      "AssetFile": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\Login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "822"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wAdWMNjEitJA2zUaa2eDcSVsCtS+s/DEFM9YdzuIoYg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 19:05:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wAdWMNjEitJA2zUaa2eDcSVsCtS+s/DEFM9YdzuIoYg="
+        }
+      ]
+    },
+    {
+      "Route": "Login.wc3zs8de3f.html",
+      "AssetFile": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\Login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "822"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wAdWMNjEitJA2zUaa2eDcSVsCtS+s/DEFM9YdzuIoYg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 19:05:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wc3zs8de3f"
+        },
+        {
+          "Name": "label",
+          "Value": "Login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wAdWMNjEitJA2zUaa2eDcSVsCtS+s/DEFM9YdzuIoYg="
+        }
+      ]
+    },
+    {
+      "Route": "userList.html",
+      "AssetFile": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\userList.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "904"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u+vjGf8q6qjgtulfFo4NjYV3SLoj/nKao2Y30k+8QQM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 13:04:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u+vjGf8q6qjgtulfFo4NjYV3SLoj/nKao2Y30k+8QQM="
+        }
+      ]
+    },
+    {
+      "Route": "userList.xxweabi0le.html",
+      "AssetFile": "C:\\Users\\02554\\Documents\\תכנות\\שנה ב\\core\\Miri bar lev\\newProject\\wwwroot\\userList.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "904"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u+vjGf8q6qjgtulfFo4NjYV3SLoj/nKao2Y30k+8QQM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 13:04:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xxweabi0le"
+        },
+        {
+          "Name": "label",
+          "Value": "userList.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u+vjGf8q6qjgtulfFo4NjYV3SLoj/nKao2Y30k+8QQM="
+        }
+      ]
+    }
+  ]
+}
