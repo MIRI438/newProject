@@ -57,16 +57,15 @@ public class BrandBagsController : ControllerBase
 
 
     [HttpPut("{id}")]
-    public ActionResult Put(int id, BrandBags bags)
+    public ActionResult Put(int id, BrandBags newBag)
     {
-        var result = BrandBagsService.Update(id, bags);
+        var result = BrandBagsService.Update(id, newBag);
         if (!result)
         {
             return BadRequest();
         }
         return NoContent();
     }
-
 
 
 

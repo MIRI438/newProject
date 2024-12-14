@@ -18,7 +18,8 @@ namespace NEWPROJECT.Services
         }
         private List<BrandBags> BrandBags;
         private string fileName = "Data.json";
-        int nextId = 1444;
+        Random rand = new Random();
+
         public BrandBagsService()
         {
             this.fileName = Path.Combine("data", "data.json");
@@ -46,7 +47,7 @@ namespace NEWPROJECT.Services
 
         public void Add(BrandBags bag)
         {
-            bag.Id = nextId++;
+            bag.Id =  rand.Next(1000, 10001);
             BrandBags.Add(bag);
             SaveToFile();
 

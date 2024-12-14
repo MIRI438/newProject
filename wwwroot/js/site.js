@@ -101,7 +101,7 @@ async function editBag(id) {
     let i = 365;
     if (!Name) return;
 
-    let bag = { Id:i++ , NameBrand: Name, IsDesigning: desin,IsVegan:Vegan,UserId:id };
+    let bag = { Id:i++ , NameBrand: Name, IsDesigning: desin, IsVegan: Vegan, UserId: id };
 
     try {
         const response = await fetch(`${apiBaseUrl}/${id}`, {
@@ -110,17 +110,17 @@ async function editBag(id) {
                 "Content-Type": "application/json",
                 "Authorization": `Bearer ${token}`
             },
-            body: JSON.stringify(user)
+            body: JSON.stringify(bag)
         });
         debugger
         if (!response.ok) {
-            const errorText = await response.text();  // קבלת הטקסט של השגיאה
+            const errorText = await response.text(); 
             throw new Error(`Failed to update user: ${errorText}`);
         }
 
-        loadBags(); 
+        getItems(); 
     } catch (error) {
-        alert("Error updating user: " + error.message); // הצג שגיאה אם קרתה
+        alert("Error updating user: " + error.message); 
     }
 }
 
