@@ -12,14 +12,16 @@ namespace NEWPROJECT.Services
         private List<User> Users;
         private string fileName = "Users.json";
         int nextId = 1444;
+        readonly IBrandBagsService ifUserDeleted;
 
         private void SaveToFile()
         {
             File.WriteAllText(fileName, JsonSerializer.Serialize(Users));
         }
 
-        public usersService()
+        public usersService(IBrandBagsService ifUserDeleted)
         {
+            this.ifUserDeleted = ifUserDeleted;
             this.fileName = Path.Combine("data", "users.json");
 
             using (var jsonFile = File.OpenText(fileName))
@@ -58,6 +60,7 @@ namespace NEWPROJECT.Services
                 return false;
 
             Users.Remove(user);
+            ifUserDeleted.DeleteAllBooks(user.Id);
             SaveToFile();
             return true;
 

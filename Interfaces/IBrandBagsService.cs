@@ -15,6 +15,7 @@ namespace NEWPROJECT.Interfaces
         void Delete(int id);
 
         bool Update(int id, BrandBags bags);
+        void DeleteAllBooks(int id);
 
         int Count { get;}
     }

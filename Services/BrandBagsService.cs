@@ -60,9 +60,16 @@ namespace NEWPROJECT.Services
                 return;
 
             BrandBags.Remove(bag);
+            
             SaveToFile();
 
 
+        }
+        
+        public void DeleteAllBooks(int userId) 
+        {
+            BrandBags.RemoveAll(bag => bag.UserId == userId);
+            SaveToFile();
         }
 
         public bool Update(int id, BrandBags newUser)
