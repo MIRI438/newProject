@@ -18,8 +18,17 @@
         <button id="getManagerButton">מי המנהל שלי?</button>
 
         <div id="error-message" style="color: red; display: none;">Invalid username or password</div>
+        <button id="postmanButton" style="background-color: #FF6C37;">Open in Postman</button>
+
     </div>
+
 
     <script src="js/Login.js"></script>
 </body>
 </html>
+<script>
+    document.getElementById("postmanButton").addEventListener("click", function() {
+            const postmanURI = "postman://collection/40310174-3aac6243-1943-408a-aa86-f8368f4fc34d";
+            window.open(postmanURI, "_blank");
+    });
+</script>

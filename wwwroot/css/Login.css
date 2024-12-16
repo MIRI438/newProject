@@ -24,6 +24,7 @@ input {
 }
 
 button {
+    margin-top: 2%;
     width: 100%;
     padding: 10px;
     background-color: #4CAF50;
