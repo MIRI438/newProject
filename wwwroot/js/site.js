@@ -65,10 +65,14 @@ async function loadBags() {
 
 async function addBag() {
     const NameBrand = prompt("Enter the name of the bag:");
-    const id = 1;
-    const IsDesigning = Boolean(prompt("IsDesigning?"));
-    const IsVegan = Boolean(prompt("IsVegan?"));
+    const id = Math.floor(Math.random() * (10000 - 1000 + 1)) + 1000;
+    const IsDesigningInput = prompt("IsDesigning?");
+    const IsVeganInput = prompt("IsVegan?");
+    const IsDesigning = (IsDesigningInput.toLowerCase() === 'true');
+    const IsVegan = (IsVeganInput.toLowerCase() === 'true');
     const UserId = localStorage.getItem("id");
+    debugger
+    console.log(IsDesigning,IsVegan)
 
     if (!NameBrand) return;
 
@@ -97,20 +101,21 @@ async function editBag(id) {
     const desin = Boolean(prompt("IsDesigning?"));
     const Vegan = Boolean(prompt("IsVegan?"));
     const token = localStorage.getItem('authToken')
+    const Id = id
+    // let i = 365;
 
-    let i = 365;
     if (!Name) return;
 
-    let bag = { Id:i++ , NameBrand: Name, IsDesigning: desin, IsVegan: Vegan, UserId: id };
+    let bag = { Id: Id, NameBrand: Name, IsDesigning: desin, IsVegan: Vegan, UserId: id };
 
     try {
-        const response = await fetch(`${apiBaseUrl}/${id}`, {
+        const response = await fetch(`${apiBaseUrl}/${Id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json",
                 "Authorization": `Bearer ${token}`
             },
-            body: JSON.stringify(bag)
+            body: console.log(JSON.stringify(bag))
         });
         debugger
         if (!response.ok) {
@@ -119,6 +124,7 @@ async function editBag(id) {
         }
 
         getItems(); 
+        // i++;
     } catch (error) {
         alert("Error updating user: " + error.message); 
     }

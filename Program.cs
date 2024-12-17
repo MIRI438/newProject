@@ -13,14 +13,13 @@ using NEWPROJECT.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// שירותים בסיסיים
+builder.Services.AddLogging();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
 
-    // הוספת הגדרת ה-Bearer Token ב-Swagger
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         In = ParameterLocation.Header,
@@ -30,7 +29,6 @@ builder.Services.AddSwaggerGen(c =>
         Scheme = "Bearer"
     });
 
-    // הוספת דרישה לתוקן עבור כל הבקשות
     c.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
         {
@@ -47,14 +45,12 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-// הוספת מדיניות הרשאה
 builder.Services.AddAuthorization(cfg =>
    {
        cfg.AddPolicy("Admin", policy => policy.RequireClaim("type","Admin"));
        cfg.AddPolicy("User", policy => policy.RequireClaim("type", "User","Admin"));
    });
 
-// הוספת שירותי אימות JWT
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -69,7 +65,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ClockSkew = TimeSpan.Zero
         };
 
-        // הוספת לוגים כדי לבדוק את הבעיה
         options.Events = new JwtBearerEvents
         {
             OnAuthenticationFailed = context =>
@@ -92,22 +87,19 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 
 
-// הוספת שירותים נוספים
 builder.Services.AddSingleton<IBrandBagsService, BrandBagsService>();
 builder.Services.AddSingleton<IUserService, usersService>();
 builder.Services.AddSingleton<TokenService>();
 
 var app = builder.Build();
 
-// תצורת Swagger
 app.UseSwagger();
 app.UseSwaggerUI(options =>
 {
     options.RoutePrefix = "swagger";
     options.SwaggerEndpoint("/swagger/v1/swagger.json", "My API");
 
-    // הוספת חיבור של Bearer token ב-Swagger UI
-    options.DefaultModelsExpandDepth(-1);  // לא להציג מודלים
+    options.DefaultModelsExpandDepth(-1); 
 });
 
 app.UseDefaultFiles();

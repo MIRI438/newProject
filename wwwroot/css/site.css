@@ -1,57 +1,154 @@
-/* styles.css */
-body {
-    font-family: Arial, sans-serif;
+/* Reset and base styles */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 1rem;
+/* Body */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f5f0e1; /* חום בהיר */
+    color: #5d4037; /* חום אדמה כהה */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
 }
 
+/* Main container */
 main {
-    padding: 1rem;
+    background-color: #fff; /* צבע רקע לבן */
+    border-radius: 10px;
+    padding: 40px;
+    width: max-content;
+    min-width: 50%;
+    max-width: 1100px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
+/* Header */
+header {
+    width: 100%;
+    background-color: #ffffff; /* לבן */
+    color: #5d4037; /* חום אדמה כהה */
+    padding: 15px 0;
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: normal;
+    border-bottom: 2px solid #bcae82; /* חום בהיר */
+    margin-bottom: 12px;
+}
+
+/* Table styling */
 table {
     width: 100%;
+    margin-top: 20px;
     border-collapse: collapse;
-    margin-top: 1rem;
 }
 
-table, th, td {
-    border: 1px solid #ddd;
-}
-
-th, td {
-    padding: 8px;
+table th, table td {
+    padding: 12px;
     text-align: center;
+    border-bottom: 1px solid #bcae82; /* חום בהיר */
 }
 
+table th {
+    background-color: #f5f0e1; /* חום בהיר */
+    color: #5d4037; /* חום אדמה כהה */
+    font-weight: normal;
+}
+
+table td {
+    background-color: #ffffff; /* רקע לבן */
+}
+
+/* Button styles */
 button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    cursor: pointer;
-    margin-top: 1rem;
-}
-.user-link {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #4CAF50;  /* צבע רקע */
-    color: white;  /* צבע טקסט */
-    text-decoration: none;  /* הסרת קו תחתון */
-    border-radius: 5px;  /* פינות מעוגלות */
-    font-size: 16px;  /* גודל הפונט */
-    font-weight: bold;  /* עובי הפונט */
-    transition: background-color 0.3s ease;  /* אנימציה עבור שינוי צבע הרקע */
+    padding: 12px 30px;
+    background-color: #bcae82; /* חום בהיר */
+    color: #5d4037;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: normal;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 2px solid #bcae82;
 }
 
-.user-link:hover {
-    background-color: #45a049;  /* צבע רקע בהעברת עכבר */
+button:hover {
+    background-color: #8d6e63; /* חום כהה */
+    border: 2px solid #8d6e63;
 }
 
+button:focus {
+    outline: none;
+}
+
+/* User-specific button styling */
+#returnListBag {
+    background-color: #d7a06d; /* חום-כתום */
+}
+
+#returnListBag:hover {
+    background-color: #bc8b5c; /* חום כהה-כתום */
+}
+
+/* Login form container */
+#login {
+    display: none;
+    text-align: center;
+    padding: 40px;
+}
+
+#login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login input {
+    width: 80%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #bcae82;
+    border-radius: 6px;
+    background-color: #f5f0e1; /* חום בהיר */
+}
+
+#login button {
+    width: 80%;
+    padding: 12px;
+    background-color: #bcae82; /* חום בהיר */
+    color: #5d4037;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#login button:hover {
+    background-color: #8d6e63; /* חום כהה */
+}
+
+/* Error message styling */
+#error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Additional buttons */
+#postmanButton {
+    background-color: #d7a06d; /* חום-כתום */
+    margin-top: 20px;
+}
+
+#postmanButton:hover {
+    background-color: #bc8b5c; /* חום כהה-כתום */
+}

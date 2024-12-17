@@ -72,13 +72,13 @@ namespace NEWPROJECT.Services
             SaveToFile();
         }
 
-        public bool Update(int id, BrandBags newUser)
+        public bool Update(int id, BrandBags newBag)
         {
-            var index = BrandBags.FindIndex(p => p.Id == newUser.Id);
+            var index = BrandBags.FindIndex(p => p.Id == newBag.Id);
             if (index == -1)
                 return false;
 
-            BrandBags[index] = newUser;
+            BrandBags[index] = newBag;
             SaveToFile();
             return true;
 
