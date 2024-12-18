@@ -126,7 +126,7 @@ async function editBag(id) {
         getItems(); 
         // i++;
     } catch (error) {
-        alert("Error updating user: " + error.message); 
+        alert("Error updating user:"); 
     }
 }
 

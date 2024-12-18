@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>a7t5e70m9r</Fingerprint>
-      <Integrity>6hLceLGXAiPVzHHMeVCuiVgqGqNM1uKRdrJqN6DZQtw=</Integrity>
+      <Fingerprint>hvegikcwx5</Fingerprint>
+      <Integrity>TZFP146q4B18Mieh9tv7XD/AqXMNnLTI+GQoqwwmeQg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>olcod8pf36</Fingerprint>
-      <Integrity>NA0Tx4RMro/kFqFDRPPvEaHQreXUrTCPdKsaPl9nbR0=</Integrity>
+      <Fingerprint>ai9qijxsvd</Fingerprint>
+      <Integrity>okBtwqIiI/QUyklDoK7nAdqaD7RYGQn2l+Afgf8dHlA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</OriginalItemSpec>
@@ -107,6 +107,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\userList.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Leonardo_Phoenix_09_Create_a_background_image_for_me_with_many_1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MyApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MyApi</BasePath>
+      <RelativePath>Leonardo_Phoenix_09_Create_a_background_image_for_me_with_many_1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>u7hnmpxugv</Fingerprint>
+      <Integrity>6iBHarK9tL02kG28JcFecMkA5o6+7CjiiGVVJQ6obG4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Leonardo_Phoenix_09_Create_a_background_image_for_me_with_many_1.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Login.html'))">
       <SourceType>Package</SourceType>
